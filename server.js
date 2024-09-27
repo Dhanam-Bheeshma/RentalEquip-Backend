@@ -17,8 +17,8 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 const allowedOrigins = [
     'http://localhost:3000', // Local development
-    'https://rent-bk-siva.onrender.com', // Your deployed backend
-    'https://model-web-react.netlify.app', // Your deployed frontend
+    'https://rentalequip-backend.onrender.com', // Your deployed backend
+    'https://rentalequip-frontend-ui.netlify.app', // Your deployed frontend
 ];
 
 app.use(cors({
